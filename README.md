@@ -21,13 +21,6 @@
 ![image](https://github.com/user-attachments/assets/3195d212-9bb8-43a6-9890-761b691367ad)
 ![image](https://github.com/user-attachments/assets/0f5287c1-d27a-4094-9cb2-19cc3052b950)
 
-```
-![Homepage](screenshots/homepage.png)
-![Menu](screenshots/menu.png)
-![Offers](screenshots/offers.png)
-![Sign In](screenshots/signin.png)
-```
-
 ## Technology Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
@@ -65,37 +58,3 @@ To run this application locally:
 
    * Install the "Live Server" extension.
    * Right-click `index.html` → Click "Open with Live Server".
-
-## Project Structure
-
-```
-foodiecart/
-│
-├── index.html         # Main application HTML file
-├── README.md          # Project documentation
-├── screenshots/       # Screenshots for README (optional)
-└── assets/            # (Optional) Future images, stylesheets, icons
-```
-
-## Future Improvements
-
-* Backend integration for order management and user authentication
-* Payment gateway mock flow
-* Real-time location and delivery tracking
-* Admin dashboard for restaurant management
-* Improved accessibility and ARIA support
-* Progressive Web App (PWA) features
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-If you’d like, I can also generate:
-
-* A `LICENSE` file
-* Deploy script or instructions for GitHub Pages
-* A `screenshots/` folder placeholder structure
-
-Would you like those as well?
