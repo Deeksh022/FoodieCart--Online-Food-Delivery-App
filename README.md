@@ -1,33 +1,101 @@
-# FoodieCart--Online-Food-Delivery-App
-It is a stylish and responsive frontend template for a modern food delivery application. Designed with HTML, CSS, and JavaScript, this single-page interface.
- Features
- Interactive food and restaurant categories
+# FoodieCart - Online Food Delivery Web App
 
- Real-time search box with placeholder functionality
+**FoodieCart** is a modern, responsive front-end web application designed to simulate the experience of browsing and ordering food online. It provides an intuitive user interface to explore restaurants, menus, categories, and ongoing offers—specifically modeled for a city like Mangalore. This is an ideal starting point for building a full-stack food delivery solution.
 
- Dynamic FAQ section with expand/collapse toggle
+## Features
 
- Responsive design with hover effects and clean UI
+* Responsive landing page with a sleek and modern design
+* Dynamic restaurant listing with images, ratings, and offers
+* Categorized menu items with filtering options
+* Search bar for querying food or restaurant items
+* Interactive FAQ section with expandable answers
+* Sign-in form for user authentication simulation
+* Contact section with multiple support options (call, chat, email)
+* Smooth scrolling for enhanced user experience
+* Fully mobile-friendly and optimized layout
 
- Offers section with styled badges and discounts
 
- Contact support options (call, chat, email)
+## Screenshots
+![image](https://github.com/user-attachments/assets/035dd147-d96b-4dcd-8da1-0c0bcdefb486)
+![image](https://github.com/user-attachments/assets/e99edf6a-d291-4c11-b059-8dbe2ba151b5)
+![image](https://github.com/user-attachments/assets/3195d212-9bb8-43a6-9890-761b691367ad)
+![image](https://github.com/user-attachments/assets/0f5287c1-d27a-4094-9cb2-19cc3052b950)
 
- Sign-in form for user login flow
+```
+![Homepage](screenshots/homepage.png)
+![Menu](screenshots/menu.png)
+![Offers](screenshots/offers.png)
+![Sign In](screenshots/signin.png)
+```
 
-Tech Stack
-HTML5
+## Technology Stack
 
-CSS3 (including media queries for responsiveness)
+* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Responsive Design:** CSS Flexbox & Media Queries
+* **UI Elements:** Pure CSS (No external libraries used)
+* **Interactivity:** JavaScript for search, FAQ toggle, smooth scroll
 
-Vanilla JavaScript
+## Getting Started
 
-Demo Use-Cases
-Restaurant browsing experience for users in Mangalore
+To run this application locally:
 
-Menu selection and item-based categorization
+### Prerequisites
 
-Basic user interaction simulations (e.g., alerts on search)
+* Web browser (Chrome, Firefox, Edge, Safari)
+* Code editor (VS Code recommended)
 
-Note
-This is a frontend-only prototype. No backend/database integration is included. Perfect as a base for building full-stack food ordering apps.
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/foodiecart.git
+   ```
+2. Navigate into the project directory:
+
+   ```bash
+   cd foodiecart
+   ```
+3. Open `index.html` in your browser:
+
+   * Double click `index.html`, or
+   * Use a local development server (recommended for live reload)
+
+   Example using VS Code Live Server:
+
+   * Install the "Live Server" extension.
+   * Right-click `index.html` → Click "Open with Live Server".
+
+## Project Structure
+
+```
+foodiecart/
+│
+├── index.html         # Main application HTML file
+├── README.md          # Project documentation
+├── screenshots/       # Screenshots for README (optional)
+└── assets/            # (Optional) Future images, stylesheets, icons
+```
+
+## Future Improvements
+
+* Backend integration for order management and user authentication
+* Payment gateway mock flow
+* Real-time location and delivery tracking
+* Admin dashboard for restaurant management
+* Improved accessibility and ARIA support
+* Progressive Web App (PWA) features
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+If you’d like, I can also generate:
+
+* A `LICENSE` file
+* Deploy script or instructions for GitHub Pages
+* A `screenshots/` folder placeholder structure
+
+Would you like those as well?
